@@ -48,9 +48,17 @@ def join_strings(string_list):
         final += word
     return final
 
+    # remember that list.append() and list.extend() modify the original list and do not return any anything
+
 # Write a function that takes a list of integers and returns the average (without using the avg method)
 def average(numbers):
-    return 0
+    sum_total = 0
+
+    for num in numbers:
+        sum_total += num
+
+    average = sum_total/len(numbers)
+    return average
 
 l = range(-10, 10)
 l2 = [6, 7]
@@ -62,3 +70,4 @@ print word_lengths(words)
 print sum_numbers(l)
 print mult_numbers(l2)
 print join_strings(words) == ''.join(words)
+print average(l2) == sum(l2) / len(l2)
