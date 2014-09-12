@@ -55,9 +55,9 @@ def average(numbers):
     sum_total = 0
 
     for num in numbers:
-        sum_total += num
+        sum_total += num # or we could use the function we wrote earlier
 
-    average = sum_total/len(numbers)
+    average = float(sum_total)/len(numbers)
     return average
 
 l = range(-10, 10)
@@ -70,4 +70,4 @@ print word_lengths(words)
 print sum_numbers(l)
 print mult_numbers(l2)
 print join_strings(words) == ''.join(words)
-print average(l2) == sum(l2) / len(l2)
+print average(l2) == float(sum(l2)) / len(l2)
