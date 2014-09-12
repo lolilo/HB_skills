@@ -1,0 +1,33 @@
+Straight From The Horse's Mouth, Or The Unofficial Hackbright Admissions FAQ
+Hint -- The final interview will be conducted by a talking horse.
+
+Q: Lolwut?
+
+I figure we're about due for some clarification. I've been head of instruction for Hackbright Academy for just about one year now, and unfortunately, our admissions process remains completely opaque. Part of this is due to the simple fact that admissions is a difficult thing, the remainder is due to my own incompetence and absent-mindedness. This has resulted in more than a few broken hearts, and more than one person's application getting 'lost in the system'. (I would like to comment that it goes both ways: if we email you and you don't respond, that makes us equally sad.) For all that, I apologize. It is a hard thing to do. Consider this: as agonizing as it is for you to receive a rejection letter, amplify that by the hundreds of times that we have to tell someone that we didn't think they were a good fit, no matter how eager and excited they were. We're not so large and faceless yet that each rejection doesn't affect us personally.
+
+Think of this FAQ as both a clarification of our process, so that when we slip up, you might find it in your heart to forgive us our failings, and a pre-emptive public apology.
+Q: What exactly is the process?
+
+The general process is three steps:
+Submit an application
+First round interview
+Second round interview
+After the second round, we give our final decision. Generally, we do not deviate from this process, and already my heart goes out to everyone who's reading this sentence and feeling disappointment.
+
+Q: What exactly are my chances?
+
+First, if you're a dude, I commend your tenacity in applying despite the fact that we do not allow men in the course. So while you may have an impressive resume and be a compelling applicant, your chances are still zero and that will not change in the near future.
+
+For the rest of you, our actual demographic, statistically, your chances aren't much better than that dude. That's not to say you shouldn't apply, because you absolutely should. The issue at hand is that we run a physical facility, which limits our ability to accept applicants. Currently, we're capped at 26 students per session. We potentially have the ability to accept a few more, with a hard stop at 32, but we haven't yet solved the problem of noise levels, and adding more would just make a bad problem worse. That said, you'd think, hey, 26 is a decent size, and it is. Only, we never anticipated how important our work would be, and how much it would mean to people.
+
+Our first class was 12 students, and we got 40 applications. Our second class grew a little, to 16, and so did our applicant pool, about 90 applied. The third and current class (as of this post) is 26-strong, with roughly 200 applications. At the rate we're receiving applications for the 2014 Summer Session, we should top out between 400 to 500, putting us at the same acceptance rate as Harvard. Dang.
+Q: How do I improve my chances?
+
+Our application page is simple, but that does not mean it's easy. We have to filter out the vast majority of applicants just from the contents of the application, so make yourself stand out. There are only a few fields, so fill them out thoroughly. Where we ask you to teach us something new, the key word here is teach, not new. Explain any concept of your choice so completely that we could not possibly have any further questions.
+
+Do the optional coding challenge! It's optional, yes, and that's slightly misleading. We understand that you don't already know how to code, and that's why you're applying. But you should know, before you apply, that this is what you want to do for 8 hours a day for three months, and then, the rest of your life. Spend a few hours, a week, maybe, learning just enough to complete the challenge. There are great resources out there, Codecademy, Ruby Monk, Treehouse, etc., and any one of these can get you just enough coding know-how to do so. Think of it like a puzzle: taking time to solve it shows great initiative that can set you apart from the casually-interested. I'm especially fond of answers that aren't written in code, but instead in mathematical notation or enumerated, logical steps. More than once, that has guaranteed a second interview.
+
+Be personable and entertaining in your answers. We don't have a stodgy admissions department looking to mark checkboxes. David and I read each application personally, and if your writing resonates with either of us, that can be the difference between an interview and being passed over.
+Q: I solved your challenge but I really don't know anything about programming at all, should I apply?
+
+Yes, please, absolutely. Rather than make it easy on ourselves, we've chosen to explicitly teach people with little to no experience at all in programming. You are our target demographic, and we've had great success with people whose only experience was the 3 hours on Codecademy needed to solve our coding challenge. We actively turn away people who know too much because they don't need our help.
