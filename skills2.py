@@ -23,8 +23,6 @@ def count_unique(string1):
 
 # print count_unique(string1)
 
-
-
 FILE_PATH = 'test.txt'
 def count_unique_from_file(input_file):
     isValid = True
@@ -38,10 +36,8 @@ def count_unique_from_file(input_file):
 
         def add_to_dictionary(dictionary, key):
             if dictionary.get(key):
-                # print 'key!', key
                 dictionary[key] += 1
             else:
-                # print 'new key!', key
                 dictionary[key] = 1
 
         d = {}
@@ -49,21 +45,19 @@ def count_unique_from_file(input_file):
         # could I just do in_file .split() instead of line by line?
         while not in_file_ended:
             current_line = in_file.readline()
-            string_list = current_line.split()
 
             if current_line == '': # you have reached the end of the file
                 in_file_ended = True
                 in_file.close()
                 break
 
+            string_list = current_line.split()
             for string in string_list:
                 add_to_dictionary(d, string)
 
-        print len(d)
-
         return d
 
-print count_unique_from_file(FILE_PATH)
+# print count_unique_from_file(FILE_PATH)
 
 """
 Given two lists, (without using the keyword 'in' or the method 'index')
@@ -78,13 +72,48 @@ return a list of all common items shared between both lists. This time,
 use a dictionary as part of your solution.
 """
 def common_items2(list1, list2):
-    pass
+    # can we optimize this if the two lists are not the same length? Does it matter? 
+    # I don't think so. Still need to iterate through both lists once.
+    # No time optimization, but space optimization if you create dict with smaller list!
+    # d = {}
+
+
+    # What if there are duplicates in both lists? Then you would need a dictionary. 
+    # Keys as list items, value as number of occurances. Fun. ^__^
+
+    s = set()
+    for item in list1:
+        if item in s:
+            pass
+        else: 
+            s.add(item)
+
+    common = []
+    for item in list2:
+        if item in s:
+            common.append(item)
+
+    return common
+
+# print common_items2(list1, list2)
 
 """
 Given a list of numbers, return list of number pairs that sum to zero
 """
 def sum_zero(list1):
-    pass
+    number_pairs = []
+    for num in list1:
+        if num in d:
+            d[num] += 1
+        else:
+            d[num] = 1
+
+    for key in d.keys():
+        pair = 0 - key 
+        if pair in d:
+            d[pair] -= 1
+
+    return number_pairs
 
 """
 Given a list of words, return a list of words with duplicates removed
